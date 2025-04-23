@@ -1,0 +1,8 @@
+all:
+  hosts:
+    server1:
+       ansible_user: rafeeda
+       ansible_host: 192.168.66.129
+       ansible_become: yes
+       ansible_become_method: sudo
+       ansible_become_pass: asd123.
