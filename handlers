@@ -1,0 +1,9 @@
+---
+# handlers file for apache2roles
+- name: restart apache
+  service:
+    name: "{{ app }}"
+    state: restarted
+
+- name: reload firewall
+  command: ufw reload
