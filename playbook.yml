@@ -1,0 +1,5 @@
+- name: apache2 webhosting
+  hosts: server1
+  become: true
+  roles:
+    - apache2roles
